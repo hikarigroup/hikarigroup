@@ -349,7 +349,7 @@ ul {
 }
 
 .achievements-section {
-  background:#dc3545;
+  background:#fff;
 }
 
 .about-image-wrapper img:hover {
@@ -746,15 +746,17 @@ ul {
 }
 
 
+.doi-tac {
+  justify-content:center;
+}
+
 .doi-tac img{
-  object-fit:cover;
+  object-fit:contain;
   height:250px;
   width:100%;
-  border:16px solid #fff
 }
 
 .doi-tac p {
-  color:#FFF;
   text-align:center;
   margin-top:0.5rem;
   font-weight:bold;
